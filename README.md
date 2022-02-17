@@ -26,11 +26,11 @@
       
    Methods :
    
-      -- `removeDuplicates()` : 
+      - `removeDuplicates()` : 
                This method takes HashMap as a Parameter and removes duplicate data from Map.
-      -- `readFile()` :
+      - `readFile()` :
                This method takes Filename as parameter and return Object of BufferedReader class;
-      -- `compare()` :
+      - `compare()` :
                This method Override from Comparator interface to sort ArrayList<> of the book by Title
 
 ### Exercise 5
