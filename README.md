@@ -48,24 +48,24 @@
 
    This Exercise includes 4 Classes :  
 
-      - `Vehicle` :
-            Define the  Vehicle id , brand ,model, number of seats, licence_plate.
-      - `Rental` :
-            Define Rental Start date , Rental end date and Object of Customer  and Vehicle class 
-      - `Customer` :
-            Define the  Customer id and Name of Customer.
-      - `CarRental` :
-            SortByYear class implement Comparator interface to sort ArrayList<Book> of the book by Ratings
+   - `Vehicle` :
+         Define the  Vehicle id , brand ,model, number of seats, licence_plate.
+   - `Rental` :
+         Define Rental Start date , Rental end date and Object of Customer  and Vehicle class 
+   - `Customer` :
+         Define the  Customer id and Name of Customer.
+   - `CarRental` :
+         SortByYear class implement Comparator interface to sort ArrayList<Book> of the book by Ratings
 
       Methods :
-         - `inputVehicleData()` : 
-               This Function takes Vehicle Data as input from the user and returns an object of the Vehicle class.
-         - `searchId()` :
-               This function takes ArrayList<String> and String str as parameters 
-                  and finds str in ArrayList if found return true else false.
-         - `checkDate()` :
-               This Function is used to check if Date 1 occurs after Date 2 or Date 1 Before Date 2 
-                  and return true if it Date 1 occurs after Date 2.
+      - `inputVehicleData()` : 
+            This Function takes Vehicle Data as input from the user and returns an object of the Vehicle class.
+      - `searchId()` :
+            This function takes ArrayList<String> and String str as parameters 
+               and finds str in ArrayList if found return true else false.
+      - `checkDate()` :
+            This Function is used to check if Date 1 occurs after Date 2 or Date 1 Before Date 2 
+               and return true if it Date 1 occurs after Date 2.
 ## Instructions
 
 ### IntelliJ
