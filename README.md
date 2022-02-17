@@ -24,7 +24,8 @@
  - `Library` :
    Library class implement Comparator interface to sort ArrayList<Book> of the book by Title
       
-   Functions : 
+   Methods :
+   
       -- `removeDuplicates()` : 
                This method takes HashMap as a Parameter and removes duplicate data from Map.
       -- `readFile()` :
