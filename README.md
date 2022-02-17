@@ -18,12 +18,13 @@
  - `Book` :
          Define Title, Year, averageRating of Book
  - `SortByYear` :
-         SortByYear class implement Comparator interface to sort ArrayList<> of the book by Year
+         SortByYear class implement Comparator interface to sort ArrayList<Book> of the book by Year
  - `SortByRatings` :
-         SortByYear class implement Comparator interface to sort ArrayList<> of the book by Ratings
+         SortByYear class implement Comparator interface to sort ArrayList<Book> of the book by Ratings
  - `Library` :
-      Library class implement Comparator interface to sort ArrayList<> of the book by Title
-      Functions : 
+   Library class implement Comparator interface to sort ArrayList<Book> of the book by Title
+      
+   Functions : 
       -- `removeDuplicates()` : 
                This method takes HashMap as a Parameter and removes duplicate data from Map.
       -- `readFile()` :
