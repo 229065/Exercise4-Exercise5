@@ -57,16 +57,16 @@ This Exercise includes 4 Classes :
 - `CarRental` :
       SortByYear class implement Comparator interface to sort ArrayList<Book> of the book by Ratings
 
-Methods :
+   Methods :
 
-- `inputVehicleData()` : 
-         This Function takes Vehicle Data as input from the user and returns an object of the Vehicle class.
+      - `inputVehicleData()` : 
+            This Function takes Vehicle Data as input from the user and returns an object of the Vehicle class.
 
-- `searchId()` :
-         This function takes ArrayList<String> and String str as parameters and finds str in ArrayList if found return true else false.
+      - `searchId()` :
+            This function takes ArrayList<String> and String str as parameters and finds str in ArrayList if found return true else false.
 
-- `checkDate()` :
-         This Function is used to check if Date 1 occurs after Date 2 or Date 1 Before Date 2 and return true if it Date 1 occurs after Date 2.
+      - `checkDate()` :
+            This Function is used to check if Date 1 occurs after Date 2 or Date 1 Before Date 2 and return true if it Date 1 occurs after Date 2.
 ## Instructions
 
 ### IntelliJ
