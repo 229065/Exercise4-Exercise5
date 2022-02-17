@@ -51,4 +51,4 @@ The project includes `Two Exercises`. which cover basic concepts of Java `Method
    If you find a bug, Please let me know by submitting an issue.
    
 ## Authors
-- @katherinepeterson
+- @Vinod Muley
