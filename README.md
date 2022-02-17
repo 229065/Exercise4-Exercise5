@@ -22,15 +22,15 @@
  - `SortByRatings` :
          SortByYear class implement Comparator interface to sort ArrayList<> of the book by Ratings
  - `Library` :
-         Library class implement Comparator interface to sort ArrayList<> of the book by Title
-         Functions : 
-         -- `removeDuplicates()` : 
-                  This method takes HashMap as a Parameter and removes duplicate data from Map.
-         -- `readFile()` :
-                  This method takes Filename as parameter and return Object of BufferedReader class;
-         -- `compare()` :
-                  This method Override from Comparator interface to sort ArrayList<> of the book by Title
-         
+      Library class implement Comparator interface to sort ArrayList<> of the book by Title
+      Functions : 
+      -- `removeDuplicates()` : 
+               This method takes HashMap as a Parameter and removes duplicate data from Map.
+      -- `readFile()` :
+               This method takes Filename as parameter and return Object of BufferedReader class;
+      -- `compare()` :
+               This method Override from Comparator interface to sort ArrayList<> of the book by Title
+
 ### Exercise 5
    There are 3 classes in Shapes.java `Rectangle`, `Circle`, `Square` which includes the following functions :
    - `perimeter()` :
