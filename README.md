@@ -61,12 +61,12 @@ This Exercise includes 4 Classes :
 
       - `inputVehicleData()` : 
             This Function takes Vehicle Data as input from the user and returns an object of the Vehicle class.
-
       - `searchId()` :
-            This function takes ArrayList<String> and String str as parameters and finds str in ArrayList if found return true else false.
-
+            This function takes ArrayList<String> and String str as parameters 
+               and finds str in ArrayList if found return true else false.
       - `checkDate()` :
-            This Function is used to check if Date 1 occurs after Date 2 or Date 1 Before Date 2 and return true if it Date 1 occurs after Date 2.
+            This Function is used to check if Date 1 occurs after Date 2 or Date 1 Before Date 2 
+               and return true if it Date 1 occurs after Date 2.
 ## Instructions
 
 ### IntelliJ
