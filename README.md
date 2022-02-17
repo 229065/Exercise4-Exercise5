@@ -1,27 +1,40 @@
 # Exercise4-Exercise5
 
-The project includes `Two Exercises`. which cover basic concepts of Java `Method Overloading`, `Method Overriding`,`Collections`, `File Handling`, `Comparator`. 
-
 ### Exercise 4  
-   Employee class calculates the Salary of the employee using the following functions :  
-   - `getInfo()` : 
-                  Takes the hourly salary, number of hours of work per day of employee.
-   - `computeBaseSalary()` :
-                  Computes the base salary for 20 days of work.
-   - `addSal()` :
-                  Adds $10 to the base salary of the employee if it is less than $500.
-   - `addWork()` :
-                  Adds $5 daily to salary of employee if the number of hours of work per day is more than 6 hours. 
-   - `printSalary()` :
-                  Print Salary of Employee
+   This project is about the Library System 
+   
+   #### Features :
+  1. Sorted By Book Title 
+  2. Sorted By Publication Date 
+  3. Sorted By Rating 
+  4. Given a book, know who is the author 
+  5. How many books has an author written 
+  6. Given a Date, what are the books written in that year
+  7. who is the most prolific author? 
+   
+ This Exercise includes 5 Classes :  
+ - `Author` :
+         Define the  Name of the Author and ArrayList Books written by the Author.
+ - `Book` :
+         Define Title, Year, averageRating of Book
+ - `SortByYear` :
+         SortByYear class implement Comparator interface to sort ArrayList<> of the book by Year
+ - `SortByRatings` :
+         SortByYear class implement Comparator interface to sort ArrayList<> of the book by Ratings
+ - `Library` :
+         Library class implement Comparator interface to sort ArrayList<> of the book by Title
+         Functions : 
+         -- `removeDuplicates()` : 
+                  This method takes HashMap as a Parameter and removes duplicate data from Map.
+         -- `readFile()` :
+                  This method takes Filename as parameter and return Object of BufferedReader class;
+         -- `compare()` :
+                  This method Override from Comparator interface to sort ArrayList<> of the book by Title
+         
 ### Exercise 5
    There are 3 classes in Shapes.java `Rectangle`, `Circle`, `Square` which includes the following functions :
    - `perimeter()` :
-                  Calculate Perimeter of Circle, Rectangle and Square.
-   - `area()` :
-                  Calculate Area of Circle, Rectangle and Square.
-
-                 
+                  Calculate Perimeter of Circle, Rectangle and Square.                 
 ## Instructions
 
 ### IntelliJ
